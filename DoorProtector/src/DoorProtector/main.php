@@ -30,7 +30,7 @@ use pocketmine\command\ConsoleCommandSender;
 
 class main extends PluginBase implements Listener{
 		
-		const version = 1.5;
+		const version = 2.0;
 
 	/*public function onSent(DataPacketSendEvent $event){
 		$pk = $event->getPacket();
@@ -482,7 +482,7 @@ class main extends PluginBase implements Listener{
 		}		
 	}
 	
-	public function onCommand(CommandSender $sender,Command $command,$label,array $args){
+	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
 		switch ($command->getName()) {//コマンド名で条件分岐
 			case "dp":
 				if($sender instanceof Player){
