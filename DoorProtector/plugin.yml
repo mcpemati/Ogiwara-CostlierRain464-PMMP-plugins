@@ -1,7 +1,7 @@
 name: DoorProtector
 main: DoorProtector\main
-version: "1.5 api"
-api: [1.13.0,1.14.0]
+version: 2.0.0
+api: [3.0.0, 3.0.0-ALHPA7, 3.0.0-ALHPA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11, 3.0.0-ALPHA12, 3.0.0-ALPHA13, 3.0.0-APLHA14, 3.0.0-APLHA15, 3.0.0-ALPHA16, 3.0.1]
 author: ogiwara
 description: ドア保護用プラグインです
 commands:
